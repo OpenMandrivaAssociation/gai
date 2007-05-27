@@ -1,5 +1,5 @@
 %define version 0.5.10
-%define release %mkrel 3
+%define release %mkrel 4
 %define name gai
 %define lib_major 0
 %define lib_name %mklibname %name %{lib_major}
