@@ -18,7 +18,7 @@ Requires: 	gai-album, gai-bgswitcher, gai-blobs, gai-leds
 Requires: 	gai-mailcounter, gai-pal, gai-visual-audio, gai-sun
 BuildRequires:	libgnomeui2-devel >= 2.0
 BuildRequires:	libglade2.0-devel >= 2.0
-BuildRequires:	gtkglext-devel
+BuildRequires:	libgtkglext-devel
 BuildRequires:  libpanel-applet-devel
 BuildRequires:  rox
 BuildRequires:  SDL-devel
