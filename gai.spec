@@ -13,7 +13,6 @@ Group:      Graphical desktop/Other
 Url:		http://gai.sf.net
 Source0:	http://prdownloads.sourceforge.net/gai/%{name}-%{version}.tar.bz2
 Patch:		gai-0.5.10-X.patch
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 Requires: 	gai-album, gai-bgswitcher, gai-blobs, gai-leds
 Requires: 	gai-mailcounter, gai-pal, gai-visual-audio, gai-sun
 BuildRequires:	libgnomeui2-devel >= 2.0
