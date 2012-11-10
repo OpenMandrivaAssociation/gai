@@ -1,0 +1,11 @@
+--- gai-0.5.10/configure.in~	2005-06-12 09:48:54.000000000 +0200
++++ gai-0.5.10/configure.in	2006-07-31 09:25:19.000000000 +0200
+@@ -149,7 +149,7 @@
+ 
+ dnl Checking for X header file.
+ 
+-AC_CHECK_HEADER(/usr/X11R6/include/X11/X.h, [], [
++AC_CHECK_HEADER(X11/X.h, [], [
+        AC_MSG_ERROR(No header files for X windows is found. Is xlib devel installed?)
+ ])
+ 
