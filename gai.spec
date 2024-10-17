@@ -10,7 +10,7 @@ Summary:    General Applet Interface Library
 Release:	%{release}
 License:	LGPL
 Group:      Graphical desktop/Other
-Url:		http://gai.sf.net
+Url:		https://gai.sf.net
 Source0:	http://prdownloads.sourceforge.net/gai/%{name}-%{version}.tar.bz2
 Patch:		gai-0.5.10-X.patch
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
