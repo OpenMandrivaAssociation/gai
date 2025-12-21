@@ -16,6 +16,11 @@ Patch:		gai-0.5.10-X.patch
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 Requires: 	gai-album, gai-bgswitcher, gai-blobs, gai-leds
 Requires: 	gai-mailcounter, gai-pal, gai-visual-audio, gai-sun
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	libgnomeui2-devel >= 2.0
 BuildRequires:	libglade2.0-devel >= 2.0
 BuildRequires:	libgtkglext-devel
